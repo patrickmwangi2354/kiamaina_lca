@@ -1,0 +1,228 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #8ba26733d;
+    background-image: linear-gradient(62deg, #84525c 0%, #634c7b 100%);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 1000; /* to ensure it appears on top of other elements */
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  
+  
+  nav a:hover {
+    background-color: #0062ff;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #a05a5a;
+    background-image: linear-gradient(62deg, #e90c38 0%, #7a23d1 100%);
+  }
+  
+  .welcome-section > p {
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  /*branches styling*/
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    max-width: 600px;
+    padding-left: 10px;
+  }
+  
+  address {
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 
+      
+  /*ministies*/ 
+    .ministry {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ministry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ministry p {
+    font-size: 18px;
+  }
+  /*branches*/
+    .kiamaina {
+      margin: 40px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+    }
+  /*Semons*/
+  
+  #sermons {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid
+      
+  /*contact section*/
+    #contact {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #contact form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact form button {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #3071a9;
+  }
+  
+    /*about*/
+    
+  
+  
+    
